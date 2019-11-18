@@ -17,5 +17,6 @@ controladdin GoogleMap
     HorizontalStretch = true;
 
     event ControlReady();
-    procedure ShowAddress(Address: Text);
+    event UpdateAddress(address: JsonObject);
+    procedure ShowAddress(Address: JsonObject);
 }
