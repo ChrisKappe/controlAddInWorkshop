@@ -1,6 +1,6 @@
 controladdin GoogleMap
 {
-    Scripts = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCx0SAN1HjN69fntgFaFrIHZFgfvJCX0FU';
+    Scripts = 'https://maps.googleapis.com/maps/api/js?key=<your_key>';
     StartupScript = 'scripts/start.js';
 
     RequestedHeight = 300;
