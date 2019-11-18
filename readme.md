@@ -9,7 +9,7 @@ The repository is divided into three branches, corresponding to the workshop exe
 
 Each branch contains the final state of the solution after the exercise has been completed.
 
-## Ecercise A
+## Exercise A
 
 In this exercise, you create an AL workspace that contains:
 - A control add-in object showing Google Maps using Google Maps JavaScript API
