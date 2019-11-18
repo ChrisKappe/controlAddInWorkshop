@@ -4,3 +4,5 @@ window.ctrlGoogleMap = new google.maps.Map(document.getElementById("controlAddIn
         zoom: 8,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
+
+    Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ControlReady', []);

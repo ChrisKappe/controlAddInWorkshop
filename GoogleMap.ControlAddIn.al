@@ -1,6 +1,8 @@
 controladdin GoogleMap
 {
-    Scripts = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCx0SAN1HjN69fntgFaFrIHZFgfvJCX0FU';
+    Scripts =
+        'https://maps.googleapis.com/maps/api/js?key=AIzaSyCx0SAN1HjN69fntgFaFrIHZFgfvJCX0FU',
+        'scripts/googlemap.js';
     StartupScript = 'scripts/start.js';
 
     RequestedHeight = 300;
@@ -14,4 +16,6 @@ controladdin GoogleMap
     VerticalStretch = true;
     HorizontalStretch = true;
 
+    event ControlReady();
+    procedure ShowAddress(Address: Text);
 }
