@@ -9,8 +9,10 @@ The repository is divided into three branches, corresponding to the workshop exe
 
 Each branch contains the final state of the solution after the exercise has been completed.
 
-## Exercise B
+## Exercise C
 
-In this exercise, you write the code to do the following tasks:
-- Create and invoke methods and events
-- Show customer's address in the control add-in
+In this exercise, you pass complex data between JavaScript and AL. You pass:
+- JSON object containing address from AL to JavaScript that the map uses to center itself
+- JSON object from JavaScript to AL, containing address information of the clicked location on the map
+
+Also, there is code that updates customer's address to the address clicked on the map.
